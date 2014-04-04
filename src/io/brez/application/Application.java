@@ -9,7 +9,7 @@ public class Application {
 	}
 
   public String owner() {
-    return "M. Weasel";
+    return "Marty Weasel";
   }
 
 	public boolean isWorking() {
