@@ -5,11 +5,11 @@ public class Application {
 	boolean BROKEN = false;
 
 	public String name() {
-		return "Application Demo";
+		return "New Application  Demo";
 	}
 
   public String owner() {
-    return "Gonzo";
+    return "M. Weasel";
   }
 
 	public boolean isWorking() {
@@ -21,11 +21,11 @@ public class Application {
 	}
 
 	private boolean isDemo() {
-		return name().matches("(.*) Demo") || DEMO;
+		return name().matches("(.*)  Demo") || DEMO;
 	}
 
 	public String text() {
-		return isBroken() ? "Broken" : "Fine";
+		return isBroken() ? "Broken" : "Working";
 	}
 
 	public static void main(String [] args) {
