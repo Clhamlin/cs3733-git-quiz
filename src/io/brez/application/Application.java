@@ -5,8 +5,12 @@ public class Application {
 	boolean BROKEN = false;
 
 	public String name() {
-		return "My Application";
+		return "Application";
 	}
+
+  public String owner() {
+    return "Gonzo";
+  }
 
 	public boolean isWorking() {
 		return isDemo() && isBroken() == false;
@@ -27,6 +31,7 @@ public class Application {
 	public static void main(String [] args) {
 		Application app = new Application();
 
+    System.out.println(app.owner() + "'s " + app.name());
 		System.out.println(app.text() );
 	}
 }
