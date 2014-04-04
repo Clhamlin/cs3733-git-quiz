@@ -5,7 +5,7 @@ public class Application {
 	boolean BROKEN = false;
 
 	public String name() {
-		return "New Application  Demo";
+		return "Application";
 	}
 
   public String owner() {
@@ -21,7 +21,7 @@ public class Application {
 	}
 
 	private boolean isDemo() {
-		return name().matches("(.*)  Demo") || DEMO;
+		return name().matches("(.*) Demo") || DEMO;
 	}
 
 	public String text() {
@@ -31,7 +31,7 @@ public class Application {
 	public static void main(String [] args) {
 		Application app = new Application();
 
-    System.out.println(app.owner() + "'s " + app.name());
+    System.out.println(app.owner() + "'s ");
 		System.out.println(app.text() );
 	}
 }
