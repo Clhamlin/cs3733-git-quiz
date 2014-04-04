@@ -5,7 +5,7 @@ public class Application {
 	boolean BROKEN = false;
 
 	public String name() {
-		return "My App";
+		return "My Application";
 	}
 
 	public boolean isWorking() {
