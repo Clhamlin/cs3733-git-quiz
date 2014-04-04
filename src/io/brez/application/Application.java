@@ -1,7 +1,7 @@
 package io.brez.application;
 
 public class Application {
-	boolean DEMO_MODE = true;
+	boolean DEMO = true;
 	boolean BROKEN = false;
 
 	public String name() {
@@ -17,11 +17,11 @@ public class Application {
 	}
 
 	private boolean isDemoMode() {
-		return DEMO_MODE;
+		return DEMO;
 	}
 
 	public String text() {
-		return isBroken() ? "BROKEN" : "Totally Fine!";
+		return isBroken() ? "BROKEN" : "Fine";
 	}
 
 	public static void main(String [] args) {
