@@ -2,7 +2,7 @@ package io.brez.application;
 
 public class Application {
 	boolean DEMO = true;
-	boolean BROKEN = false;
+	boolean BROKEN_APP = false;
 
 	public String name() {
 		return "Basic Quiz";
@@ -17,7 +17,7 @@ public class Application {
 	}
 
 	private boolean isBroken() {
-		return BROKEN;
+		return BROKEN_APP;
 	}
 
 	private boolean isDemo() {
