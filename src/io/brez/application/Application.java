@@ -1,7 +1,7 @@
 package io.brez.application;
 
 public class Application {
-	boolean DEMO = false;
+	boolean DEMO = true;
 	boolean BROKEN = false;
 
 	public String name() {
@@ -21,7 +21,7 @@ public class Application {
 	}
 
 	private boolean isDemo() {
-		return name().matches("(.*) Demo") || DEMO;
+		return name().matches("(.*) Demo") && DEMO;
 	}
 
 	public String text() {
