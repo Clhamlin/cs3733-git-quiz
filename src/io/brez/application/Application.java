@@ -25,7 +25,7 @@ public class Application {
 	}
 
 	public String text() {
-		return isBroken() ? "Broken" : "Working";
+		return isBroken() ? "Having issues" : "Is working";
 	}
 
 	public static void main(String [] args) {
