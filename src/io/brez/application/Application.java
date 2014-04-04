@@ -31,7 +31,7 @@ public class Application {
 	public static void main(String [] args) {
 		Application app = new Application();
 
-    System.out.println(app.owner() + "'s ");
+    System.out.print(app.owner() + "'s ");
 		System.out.println(app.text() );
 	}
 }
