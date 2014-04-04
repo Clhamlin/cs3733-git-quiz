@@ -21,7 +21,7 @@ public class Application {
 	}
 
 	private boolean isDemo() {
-		return DEMO;
+		return name().matches("(.*) Demo") || DEMO;
 	}
 
 	public String text() {
