@@ -1,11 +1,11 @@
 package io.brez.application;
 
 public class Application {
-	boolean DEMO = true;
+	boolean DEMO = false;
 	boolean BROKEN = false;
 
 	public String name() {
-		return "Application";
+		return "Application Demo";
 	}
 
   public String owner() {
