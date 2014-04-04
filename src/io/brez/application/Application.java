@@ -5,7 +5,7 @@ public class Application {
 	boolean BROKEN = false;
 
 	public String name() {
-		return "Application";
+		return "Basic Quiz";
 	}
 
   public String owner() {
