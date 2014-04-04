@@ -9,24 +9,24 @@ public class Application {
 	}
 
 	public boolean isWorking() {
-		return isDemoMode() && isBroken() == false;
+		return isDemo() && isBroken() == false;
 	}
 
 	private boolean isBroken() {
 		return BROKEN;
 	}
 
-	private boolean isDemoMode() {
+	private boolean isDemo() {
 		return DEMO;
 	}
 
 	public String text() {
-		return isBroken() ? "BROKEN" : "Fine";
+		return isBroken() ? "Broken" : "Fine";
 	}
 
 	public static void main(String [] args) {
 		Application app = new Application();
 
-		System.out.println("This application is " + app.text() );
+		System.out.println(app.text() );
 	}
 }
